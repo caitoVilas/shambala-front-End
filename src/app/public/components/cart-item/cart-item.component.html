@@ -1,1 +1,1 @@
-<p>Producto: <strong>1</strong>unidades <strong>100 $</strong></p>
+<p>{{ cartItem.productName}}: <strong>{{ cartItem.qty }}</strong>u <strong>{{  cartItem.qty * cartItem.productPrice | number: '1.1-2' }} $</strong></p>
